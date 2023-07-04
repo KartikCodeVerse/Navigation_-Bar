@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(28, 171, 171, 0.47);
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    padding: 3px 3px;
+    margin: 30px 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: rgb(52, 52, 168);
+}
+
+.navbar li a:hover{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+.search{
+    float: right;
+    color: white;
+    padding: 3px 3px;
+    margin: 30px 20px;
+}
+
+.navbar input{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 15px;
+    
+}
+
+.navbar input:hover{
+    border: 2px solid rgb(52, 52, 168);
+ 
+}
